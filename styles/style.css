@@ -980,22 +980,12 @@ h2 {
     brightness(95%) contrast(94%);
 }
 
-.cm-1-icons:nth-child(2) .span-inside-1 {
-  /* width: 16px;
-  height: 16px;
-  box-sizing: border-box;
-  background-position-x: 0px;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: auto;
-  cursor: pointer;
-  filter: invert(98%) sepia(2%) saturate(613%) hue-rotate(187deg)
-    brightness(95%) contrast(94%); */
+.cm-1-icons .cm-2-slots:nth-child(2) .span-inside-1 {
   background-position: 0 -962px;
   background-image: url(/img/sprite2.png);
 }
 
-.cm-1-icons:nth-child(3) .span-inside-1 {
+.cm-1-icons .cm-2-slots:nth-child(3) .span-inside-1 {
   background-position: 0 -945px;
   background-image: url(/img/sprite2.png);
 }
