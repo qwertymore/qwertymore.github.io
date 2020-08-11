@@ -82,20 +82,26 @@ a {
   width: 100%;
   height: 100%;
   background-color: rgb(58, 59, 60);
-  color: rgb(228, 230, 235);
+  color: rgb(176, 179, 184);
   border: none;
   text-indent: 20px;
   font-size: 0.9375rem;
 }
 
+#search::placeholder {
+  color: rgb(176, 179, 184);
+}
+
 .search-loop {
-  width: 16px;
+  width: 24px;
+  filter: invert(85%) sepia(8%) saturate(146%) hue-rotate(179deg)
+    brightness(85%) contrast(87%);
 }
 
 .search-loop img {
   height: 100%;
-  filter: invert(39%) sepia(23%) saturate(197%) hue-rotate(174deg)
-    brightness(95%) contrast(88%);
+  filter: invert(85%) sepia(8%) saturate(146%) hue-rotate(179deg)
+    brightness(85%) contrast(87%);
 }
 
 /* **********************************
@@ -443,7 +449,7 @@ h2 {
 }
 
 .mm1-slots-next:hover {
-  background: ;
+  background: rgb(32, 114, 155);
 }
 
 .mm1-slots-next-ico {
