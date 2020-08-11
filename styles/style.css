@@ -84,7 +84,7 @@ a {
   background-color: rgb(58, 59, 60);
   color: rgb(176, 179, 184);
   border: none;
-  text-indent: 20px;
+  text-indent: 10px;
   font-size: 0.9375rem;
 }
 
@@ -264,10 +264,10 @@ h2 {
   width: 320px;
   background-color: rgb(24, 25, 27);
   flex-direction: column;
-  /* height: 100%; */
   position: fixed;
   justify-content: space-between;
   left: 0;
+  min-height: calc(100vh - 76px);
 }
 .left-bar ul {
   width: 100%;
@@ -874,6 +874,7 @@ h2 {
   background: rgb(24, 25, 26);
   position: fixed;
   right: 0;
+  min-height: calc(100vh - 76px);
 }
 
 .rb-conteiner {
