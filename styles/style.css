@@ -94,14 +94,10 @@ a {
 
 .search-loop {
   width: 24px;
-  filter: invert(85%) sepia(8%) saturate(146%) hue-rotate(179deg)
-    brightness(85%) contrast(87%);
 }
 
 .search-loop img {
   height: 100%;
-  filter: invert(85%) sepia(8%) saturate(146%) hue-rotate(179deg)
-    brightness(85%) contrast(87%);
 }
 
 /* **********************************
