@@ -23,8 +23,16 @@ a {
 }
 
 .header-menu svg {
-  fill: #606770;
+  fill: rgb(176, 179, 184);
   /* stroke: #606770; */
+}
+
+.header-menu ul a:nth-child(1) svg {
+  fill: rgb(45, 136, 255);
+}
+
+.header-menu ul a:nth-child(1) {
+  border-bottom: 2px solid rgb(45, 136, 255);
 }
 
 .header {
@@ -254,7 +262,7 @@ h2 {
   width: 320px;
   background-color: rgb(24, 25, 27);
   flex-direction: column;
-  height: 100%;
+  /* height: 100%; */
   position: fixed;
   justify-content: space-between;
   left: 0;
@@ -429,11 +437,26 @@ h2 {
   top: 35%;
   left: 96%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
-.mm1-slot-next svg {
-  width: 40px;
-  height: 40px;
+.mm1-slots-next:hover {
+  background: ;
+}
+
+.mm1-slots-next-ico {
+  width: 20px;
+  height: 20px;
+  background-image: url(/img/sprite2.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position-y: -246px;
+  background-size: auto;
+  filter: invert(89%) sepia(6%) saturate(199%) hue-rotate(179deg)
+    brightness(80%) contrast(89%);
 }
 
 .mm2-comment {
@@ -500,7 +523,7 @@ h2 {
   padding: 8px;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   background: rgb(36, 37, 39);
   width: 200px;
@@ -515,7 +538,7 @@ h2 {
   justify-content: center;
   background-color: rgb(58, 59, 60);
   width: 200px;
-  border-radius: 15px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
