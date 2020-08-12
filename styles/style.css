@@ -1,103 +1,103 @@
 * {
-  margin: 0;
-  padding: 0;
-  outline: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
 }
 body {
-  height: 100vh;
+    height: 100vh;
 }
 
 a {
 }
 
 .content {
-  display: flex;
+    display: flex;
 
-  /* height: 100%; */
-  flex-direction: column;
-  position: relative;
+    /* height: 100%; */
+    flex-direction: column;
+    position: relative;
 }
 
 .vertikal-line {
-  width: 100%;
+    width: 100%;
 }
 
 .header-menu svg {
-  fill: rgb(176, 179, 184);
-  /* stroke: #606770; */
+    fill: rgb(176, 179, 184);
+    /* stroke: #606770; */
 }
 
 .header-menu ul a:nth-child(1) svg {
-  fill: rgb(45, 136, 255);
+    fill: rgb(45, 136, 255);
 }
 
 .header-menu ul a:nth-child(1) {
-  border-bottom: 2px solid rgb(45, 136, 255);
+    border-bottom: 2px solid rgb(45, 136, 255);
 }
 
 .header {
-  background: rgb(36, 37, 38);
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 16px 0px 16px;
-  box-sizing: border-box;
-  border-bottom: 1px solid rgb(57, 58, 60);
+    background: rgb(36, 37, 38);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px 0px 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(57, 58, 60);
 }
 
 .logo-search {
-  width: 320px;
-  /* padding: 0px 16px 0px 16px; */
-  box-sizing: border-box;
+    width: 320px;
+    /* padding: 0px 16px 0px 16px; */
+    box-sizing: border-box;
 
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .logo-img a svg {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .search {
-  width: 240px;
-  height: 40px;
-  margin-left: 14px;
+    width: 240px;
+    height: 40px;
+    margin-left: 14px;
 }
 
 .search form {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  padding: 7px 16px 9px 16px;
-  box-sizing: border-box;
-  border-radius: 50px;
-  background-color: rgb(58, 59, 60);
-  border: none;
-  display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 7px 16px 9px 16px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: rgb(58, 59, 60);
+    border: none;
+    display: flex;
 }
 
 .search form input {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(58, 59, 60);
-  color: rgb(176, 179, 184);
-  border: none;
-  text-indent: 10px;
-  font-size: 0.9375rem;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(58, 59, 60);
+    color: rgb(176, 179, 184);
+    border: none;
+    text-indent: 10px;
+    font-size: 0.9375rem;
 }
 
 #search::placeholder {
-  color: rgb(176, 179, 184);
+    color: rgb(176, 179, 184);
 }
 
 .search-loop {
-  width: 24px;
+    width: 24px;
 }
 
 .search-loop img {
-  height: 100%;
+    height: 100%;
 }
 
 /* **********************************
@@ -106,76 +106,76 @@ a {
 
 *************************************/
 .head-block-1 {
-  position: relative;
-  width: 100%;
-  display: flex;
-  height: 76px;
-  z-index: 1;
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 76px;
+    z-index: 1;
 }
 
 .head-block {
-  position: fixed;
-  width: 100%;
+    position: fixed;
+    width: 100%;
 }
 
 .header-menu {
-  /* background: #1c1e21; */
-  /* width: 600px; */
-  display: flex;
-  /* margin-left: 30px; */
+    /* background: #1c1e21; */
+    /* width: 600px; */
+    display: flex;
+    /* margin-left: 30px; */
 }
 
 .header-menu ul {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .header-menu ul li {
-  width: 129.5px;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* color: rgb(69, 61, 175); */
-  height: 100%;
+    width: 129.5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: rgb(69, 61, 175); */
+    height: 100%;
 }
 
 .header-menu ul a {
-  margin-left: 8px;
+    margin-left: 8px;
 }
 
 .header-menu ul a:first-child {
-  margin-left: 0px;
+    margin-left: 0px;
 }
 
 .header-menu ul a:hover {
-  width: 129.5px;
-  height: 54px;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  background-color: rgb(58, 59, 60);
-  margin-top: 3px;
+    width: 129.5px;
+    height: 54px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(58, 59, 60);
+    margin-top: 3px;
 }
 
 .header-menu ul a:focus {
-  width: 129.5px;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 3px solid rgb(46, 136, 255);
-  background-color: rgb(36, 37, 38);
-  border-radius: 0px;
-  box-sizing: border-box;
+    width: 129.5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid rgb(46, 136, 255);
+    background-color: rgb(36, 37, 38);
+    border-radius: 0px;
+    box-sizing: border-box;
 }
 
 .header-menu img {
-  width: 28px;
-  height: 28px;
+    width: 28px;
+    height: 28px;
 }
 
 /* цвет иконок #385898 */
@@ -186,66 +186,65 @@ a {
 
 *************************************/
 .account-settings {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .account-settings svg {
-  fill: #fff;
+    fill: #fff;
 }
 
 .account-settings img {
-  filter: invert(99%) sepia(68%) saturate(256%) hue-rotate(250deg)
-    brightness(113%) contrast(100%);
+    filter: invert(99%) sepia(68%) saturate(256%) hue-rotate(250deg) brightness(113%) contrast(100%);
 }
 
 .profile-settings {
-  width: 90px;
-  display: flex;
-  align-items: center;
-  border-radius: 18px;
-  margin-right: 8px;
-  padding: 0px 12px 0px 12px;
-  height: 36px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    margin-right: 8px;
+    padding: 0px 12px 0px 12px;
+    height: 36px;
 }
 
 .profile-settings p {
-  font-weight: 600;
-  color: #fff;
+    font-weight: 600;
+    color: #fff;
 }
 
 .profile-settings:hover {
-  background-color: rgb(58, 59, 60);
+    background-color: rgb(58, 59, 60);
 }
 
 .profile-photo {
-  width: 28px;
-  height: 28px;
-  margin-right: 6px;
-  display: flex;
-  border-radius: 50%;
-  background-image: url(/img/left-bar/profile.png);
-  background-size: cover;
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+    display: flex;
+    border-radius: 50%;
+    background-image: url(/img/left-bar/profile.png);
+    background-size: cover;
 }
 
 .account-settings-menu {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(58, 59, 60);
-  margin-right: 8px;
-  border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 59, 60);
+    margin-right: 8px;
+    border-radius: 50%;
 }
 
 .account-settings-menu:hover {
-  background: #787980;
+    background: #787980;
 }
 
 h2 {
-  height: 16px;
-  background-color: rgb(24, 25, 27);
+    height: 16px;
+    background-color: rgb(24, 25, 27);
 }
 
 /* **********************************
@@ -255,124 +254,124 @@ h2 {
 *************************************/
 
 .main-block {
-  height: 100%;
-  display: flex;
+    height: 100%;
+    display: flex;
 }
 
 .left-bar {
-  display: flex;
-  width: 320px;
-  background-color: rgb(24, 25, 27);
-  flex-direction: column;
-  position: fixed;
-  justify-content: space-between;
-  left: 0;
-  min-height: calc(100vh - 76px);
+    display: flex;
+    width: 320px;
+    background-color: rgb(24, 25, 27);
+    flex-direction: column;
+    position: fixed;
+    justify-content: space-between;
+    left: 0;
+    min-height: calc(100vh - 76px);
 }
 .left-bar ul {
-  width: 100%;
+    width: 100%;
 }
 
 .left-bar ul li {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .li-inside {
-  display: flex;
-  width: 100%;
-  padding: 0px 8px 0px 8px;
-  box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    padding: 0px 8px 0px 8px;
+    box-sizing: border-box;
 }
 
 .left-bar a {
-  text-decoration: none;
-  width: 100%;
-  color: rgb(228, 230, 235);
-  font-size: 0.9375rem;
-  font-weight: 600;
-  font-family: "Segoe UI Historic";
+    text-decoration: none;
+    width: 100%;
+    color: rgb(228, 230, 235);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    font-family: "Segoe UI Historic";
 }
 
 .left-bar a:hover {
-  background-color: rgb(58, 59, 60);
-  border-radius: 10px;
+    background-color: rgb(58, 59, 60);
+    border-radius: 10px;
 }
 
 .li-inside2 {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  margin: 0px 8px 0px 8px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0px 8px 0px 8px;
 }
 .see-more {
-  width: 36px;
-  height: 36px;
-  margin: 8px 12px 8px 0px;
-  border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: 8px 12px 8px 0px;
+    border-radius: 50%;
 }
 .left-bar-ico {
-  width: 36px;
-  height: 36px;
-  margin: 8px 12px 8px 0px;
+    width: 36px;
+    height: 36px;
+    margin: 8px 12px 8px 0px;
 }
 
 #ico-main {
-  width: 36px;
-  height: 36px;
-  margin: 8px 12px 8px 0px;
-  border-radius: 50%;
-  background-image: url(/img/left-bar/profile.png);
-  background-size: cover;
+    width: 36px;
+    height: 36px;
+    margin: 8px 12px 8px 0px;
+    border-radius: 50%;
+    background-image: url(/img/left-bar/profile.png);
+    background-size: cover;
 }
 
 .see-more {
-  width: 36px;
-  height: 36px;
-  margin: 8px 12px 8px 0px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgb(47, 47, 49);
+    width: 36px;
+    height: 36px;
+    margin: 8px 12px 8px 0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(47, 47, 49);
 }
 
 .see-more svg {
-  width: 20px;
-  /* fill: rgb(176, 179, 184); */
-  fill: rgb(167, 170, 174);
+    width: 20px;
+    /* fill: rgb(176, 179, 184); */
+    fill: rgb(167, 170, 174);
 }
 
 .shortcuts hr {
-  width: 288px;
-  margin-left: 16px;
-  margin-top: 8px;
-  border: none;
-  height: 1px;
-  color: rgb(62, 63, 65);
-  background-color: rgb(62, 63, 65);
+    width: 288px;
+    margin-left: 16px;
+    margin-top: 8px;
+    border: none;
+    height: 1px;
+    color: rgb(62, 63, 65);
+    background-color: rgb(62, 63, 65);
 }
 
 .shortcuts-name {
-  padding: 20px 16px 8px 16px;
-  color: rgb(179, 179, 184);
-  font-size: 17px;
-  font-weight: 600;
-  font-family: "Segoe UI Historic";
+    padding: 20px 16px 8px 16px;
+    color: rgb(179, 179, 184);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Segoe UI Historic";
 }
 
 .shortcuts ul li img {
-  width: 36px;
-  border-radius: 10px;
+    width: 36px;
+    border-radius: 10px;
 }
 
 .left-menu-footer {
-  padding: 16px 16px 16px 16px;
+    padding: 16px 16px 16px 16px;
 }
 
 .left-menu-footer a {
-  font-weight: 400;
-  font-size: 0.8125rem;
+    font-weight: 400;
+    font-size: 0.8125rem;
 }
 
 /* **********************************
@@ -381,275 +380,274 @@ h2 {
 
 *************************************/
 .main-block {
-  display: flex;
-  justify-content: center;
-  background: rgb(24, 25, 26);
+    display: flex;
+    justify-content: center;
+    background: rgb(24, 25, 26);
 }
 
 .main-menu {
-  display: flex;
-  padding: 0px 32px 0px 32px;
-  width: 679.427px;
-  background: rgb(24, 25, 26);
-  flex-direction: column;
-  height: 2000px;
+    display: flex;
+    padding: 0px 32px 0px 32px;
+    width: 679.427px;
+    background: rgb(24, 25, 26);
+    flex-direction: column;
+    height: 2000px;
 }
 
 .right-block {
-  display: flex;
-  width: 320px;
+    display: flex;
+    width: 320px;
 }
 
 .mm1-slots {
-  height: 262px;
-  display: flex;
-  background: rgb(25, 25, 27);
-  position: relative;
-  width: 100%;
-  justify-content: space-around;
-  padding-top: 2px;
-  box-sizing: border-box;
-  margin-bottom: 16px;
+    height: 262px;
+    display: flex;
+    background: rgb(25, 25, 27);
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 2px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
 }
 
 .mm1-slot-inside {
-  display: flex;
-  position: relative;
-  height: 258px;
-  width: 19%;
-  border-radius: 15px;
-  background: rgb(48, 48, 50);
+    display: flex;
+    position: relative;
+    height: 258px;
+    width: 19%;
+    border-radius: 15px;
+    background: rgb(48, 48, 50);
 }
 .mm1-slot-inside-ico {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-sizing: border-box;
-  margin: 12px 12px 12px 12px;
-  position: absolute;
-  border-radius: 100%;
-  background: rgb(69, 69, 71);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 12px 12px 12px 12px;
+    position: absolute;
+    border-radius: 100%;
+    background: rgb(69, 69, 71);
 }
 
 .mm1-slots-next {
-  width: 50px;
-  height: 50px;
-  background: rgb(63, 64, 66);
-  border-radius: 50%;
-  position: absolute;
-  top: 35%;
-  left: 96%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background: rgb(63, 64, 66);
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .mm1-slots-next:hover {
-  background: rgb(82, 84, 85);
+    background: rgb(82, 84, 85);
 }
 
 .mm1-slots-next-ico {
-  width: 20px;
-  height: 20px;
-  background-image: url(/img/sprite2.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-position-y: -246px;
-  background-size: auto;
-  filter: invert(89%) sepia(6%) saturate(199%) hue-rotate(179deg)
-    brightness(80%) contrast(89%);
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/sprite2.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position-y: -246px;
+    background-size: auto;
+    filter: invert(89%) sepia(6%) saturate(199%) hue-rotate(179deg) brightness(80%) contrast(89%);
 }
 
 .mm2-comment {
-  height: 123px;
-  margin-bottom: 16px;
-  background: rgb(36, 37, 39);
-  border-radius: 8px;
+    height: 123px;
+    margin-bottom: 16px;
+    background: rgb(36, 37, 39);
+    border-radius: 8px;
 }
 
 .comment-1-inside {
-  padding: 12px 16px 10px 16px;
-  height: 100%;
-  box-sizing: border-box;
+    padding: 12px 16px 10px 16px;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .comment-1 {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .comment-1-ico {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 8px;
-  background-image: url(/img/left-bar/profile.png);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+    background-image: url(/img/left-bar/profile.png);
 }
 .comment-1-ico:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 .comment-say {
-  height: 40px;
-  padding: 0px 12px 0px 12px;
-  box-sizing: border-box;
-  border-radius: 20px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  background-color: rgb(58, 59, 61);
-  font-size: 17px;
-  font-family: "Segoe UI Historic";
-  color: rgb(178, 178, 176);
-  line-height: 2.34;
+    height: 40px;
+    padding: 0px 12px 0px 12px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(58, 59, 61);
+    font-size: 17px;
+    font-family: "Segoe UI Historic";
+    color: rgb(178, 178, 176);
+    line-height: 2.34;
 }
 
 .comment-say:hover {
-  cursor: pointer;
-  background: rgb(78, 79, 80);
+    cursor: pointer;
+    background: rgb(78, 79, 80);
 }
 
 .comment-2 {
-  height: 40px;
-  padding-top: 8px;
-  border-top: 1px solid rgb(58, 59, 61);
-  margin-top: 12px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    height: 40px;
+    padding-top: 8px;
+    border-top: 1px solid rgb(58, 59, 61);
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .comment-2-inside {
-  box-sizing: border-box;
-  padding: 8px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  background: rgb(36, 37, 39);
-  width: 200px;
+    box-sizing: border-box;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgb(36, 37, 39);
+    width: 200px;
 }
 
 .comment-2-inside:hover {
-  box-sizing: border-box;
-  padding: 8px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  background-color: rgb(58, 59, 60);
-  width: 200px;
-  border-radius: 8px;
-  cursor: pointer;
+    box-sizing: border-box;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(58, 59, 60);
+    width: 200px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .comment-2-inside-ico {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 
-  margin-right: 8px;
+    margin-right: 8px;
 }
 
 .comment-2-inside:nth-child(1) .comment-2-inside-ico {
-  background-image: url(/img/sprite.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-position: 0 -83px;
+    background-image: url(/img/sprite.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0 -83px;
 }
 
 .comment-2-inside:nth-child(2) .comment-2-inside-ico {
-  background-image: url(/img/sprite.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-position: 0 -208px;
+    background-image: url(/img/sprite.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0 -208px;
 }
 
 .comment-2-inside:nth-child(3) .comment-2-inside-ico {
-  background-image: url(/img/sprite.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-position: 0 -133px;
+    background-image: url(/img/sprite.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0 -133px;
 }
 
 .comment-2-inside span {
-  color: rgb(176, 179, 184);
-  font-family: "Segoe UI Historic";
-  font-size: 15px;
-  font-weight: 600;
+    color: rgb(176, 179, 184);
+    font-family: "Segoe UI Historic";
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .mm3-room {
-  display: flex;
-  height: 100px;
-  margin-bottom: 16px;
-  background: rgb(36, 37, 38);
-  border-radius: 8px;
+    display: flex;
+    height: 100px;
+    margin-bottom: 16px;
+    background: rgb(36, 37, 38);
+    border-radius: 8px;
 }
 
 .mm3-room-1 {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 12px 16px 10px 16px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 16px 10px 16px;
 }
 
 .rooms {
-  height: 32px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin-bottom: 8px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 8px;
 }
 
 .rooms-1 {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .rooms-ico {
-  padding: 4px;
-  box-sizing: border-box;
+    padding: 4px;
+    box-sizing: border-box;
 }
 
 .rooms-ico i {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: 0 -33px;
-  background-image: url(/img/sprite.png);
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0 -33px;
+    background-image: url(/img/sprite.png);
 }
 
 .rooms-1 span {
-  color: rgb(280, 230, 235);
-  font-family: "Segoe UI Historic";
-  font-size: 15px;
-  font-weight: 600;
-  margin-left: 4px;
-  margin-top: -6px;
+    color: rgb(280, 230, 235);
+    font-family: "Segoe UI Historic";
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 4px;
+    margin-top: -6px;
 }
 
 .rooms-create {
-  padding: 4px;
-  box-sizing: border-box;
+    padding: 4px;
+    box-sizing: border-box;
 }
 .rooms-create a {
-  color: rgb(46, 137, 255);
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  text-decoration: none;
+    color: rgb(46, 137, 255);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 .mm3-room-1 .comment-1-ico {
-  margin-left: 4px;
+    margin-left: 4px;
 }
 
 /* **********************************
@@ -659,218 +657,217 @@ h2 {
 *************************************/
 
 .mm4-friends {
-  display: flex;
-  /* height: 392px; */
-  background: rgb(36, 37, 39);
-  flex-direction: column;
-  position: relative;
-  border-radius: 8px;
-  margin-bottom: 16px;
-  padding-bottom: 16px;
+    display: flex;
+    /* height: 392px; */
+    background: rgb(36, 37, 39);
+    flex-direction: column;
+    position: relative;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
 }
 
 .mm4-1 {
-  display: flex;
-  /* width: 100%; */
-  padding: 12px 16px 4px 16px;
-  justify-content: space-between;
-  flex-direction: row;
-  height: 36px;
-  align-items: center;
+    display: flex;
+    /* width: 100%; */
+    padding: 12px 16px 4px 16px;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 36px;
+    align-items: center;
 }
 
 .mm4-1-people {
-  color: rgb(176, 179, 184);
-  font-family: "Segoe UI Historic";
-  font-size: 17px;
-  font-weight: 600;
-  line-height: 20.0005px;
+    color: rgb(176, 179, 184);
+    font-family: "Segoe UI Historic";
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.0005px;
 }
 
 .mm4-1-more {
-  width: 20px;
-  height: 20px;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(176, 179, 184);
-  font-family: "Segoe UI Historic";
-  font-size: 12px;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(176, 179, 184);
+    font-family: "Segoe UI Historic";
+    font-size: 12px;
 }
 
 .mm4-1-more svg {
-  fill: rgb(169, 170, 174);
+    fill: rgb(169, 170, 174);
 }
 
 .mm4-1-more:hover {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: rgb(58, 59, 60);
-  cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(58, 59, 60);
+    cursor: pointer;
 }
 
 .mm4-2 {
-  display: flex;
-  flex-direction: column;
-  background: rgb(36, 37, 39);
-  padding-top: 8px;
-  margin-left: 8px;
-  padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(36, 37, 39);
+    padding-top: 8px;
+    margin-left: 8px;
+    padding-right: 16px;
 }
 
 .mm4-2-slot {
-  display: flex;
+    display: flex;
 }
 
 .mm4-2-inside {
-  background: rgb(36, 37, 39);
-  width: 26%;
-  box-sizing: border-box;
-  margin: 0px 4px 0px 4px;
-  border: 1px solid rgb(62, 64, 66);
-  margin-left: 8px;
-  border-radius: 8px;
-  margin-bottom: 8px;
+    background: rgb(36, 37, 39);
+    width: 26%;
+    box-sizing: border-box;
+    margin: 0px 4px 0px 4px;
+    border: 1px solid rgb(62, 64, 66);
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
 }
 
 .mm4-2-inside-1 {
-  width: 100%;
-  background-image: url(/img/main-menu/friends/lana.png);
-  padding-bottom: 100%;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 8px 8px 0px 0px;
-  display: flex;
+    width: 100%;
+    background-image: url(/img/main-menu/friends/lana.png);
+    padding-bottom: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
 }
 
 .mm4-2-slot :nth-child(2) .mm4-2-inside-1 {
-  background-image: url(/img/main-menu/friends/mia.jpg);
+    background-image: url(/img/main-menu/friends/mia.jpg);
 }
 
 .mm4-2-slot :nth-child(3) .mm4-2-inside-1 {
-  background-image: url(/img/main-menu/friends/nicole.jpg);
+    background-image: url(/img/main-menu/friends/nicole.jpg);
 }
 
 .mm4-2-inside-1 img {
-  width: 100%;
-  height: 100%;
-  position: relative;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 .mm4-2-inside-2 {
-  padding: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .mm4-2-inside-2-add {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 36px;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0px 12px 0px 12px;
-  background: rgb(58, 59, 61);
-  border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 12px 0px 12px;
+    background: rgb(58, 59, 61);
+    border-radius: 6px;
 }
 .mm4-2-inside-2-add:hover {
-  background-color: rgb(78, 79, 80);
+    background-color: rgb(78, 79, 80);
 }
 
 .mm4-2-inside-2-name {
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  height: 20px;
-  width: 100%;
-  box-sizing: border-box;
-  /* padding: 0px 12px 0px 12px; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    /* padding: 0px 12px 0px 12px; */
 
-  font-size: 17px;
-  font-weight: 600;
-  font-family: "Segoe UI Historic";
-  cursor: pointer;
-  color: rgb(228, 230, 235);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Segoe UI Historic";
+    cursor: pointer;
+    color: rgb(228, 230, 235);
 }
 
 .mm4-2-inside-2-about-friends {
-  height: 28px;
-  margin-bottom: 4px;
-  font-size: 12px;
+    height: 28px;
+    margin-bottom: 4px;
+    font-size: 12px;
 
-  font-family: "Segoe UI Historic";
-  padding-bottom: 4px;
-  box-sizing: border-box;
-  color: rgb(176, 179, 184);
-  white-space: nowrap;
+    font-family: "Segoe UI Historic";
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    color: rgb(176, 179, 184);
+    white-space: nowrap;
 
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .mm4-2-inside-2-add-ico {
-  display: flex;
-  width: 16px;
-  height: 16px;
-  margin-left: 3px;
-  margin-right: 3px;
-  position: relative;
-  box-sizing: border-box;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .mm4-2-inside-2-add-ico img {
-  background-image: url(/img/sprite-2.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-  background-position: 0 -83px;
-  display: inline-block;
-  filter: invert(43%) sepia(42%) saturate(2801%) hue-rotate(199deg)
-    brightness(101%) contrast(105%);
+    background-image: url(/img/sprite-2.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    background-position: 0 -83px;
+    display: inline-block;
+    filter: invert(43%) sepia(42%) saturate(2801%) hue-rotate(199deg) brightness(101%) contrast(105%);
 }
 
 .mm4-2-inside-2-add-friends {
-  display: flex;
-  box-sizing: border-box;
-  position: relative;
-  margin-left: 3px;
-  margin-right: 3px;
-  cursor: pointer;
-  font-family: "Segoe UI Historic";
-  font-size: 15px;
-  font-weight: 600;
-  color: rgb(46, 137, 255);
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+    font-family: "Segoe UI Historic";
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(46, 137, 255);
 }
 
 .mm4-3 {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgb(36, 37, 39);
-  margin: 4px 16px 0px 8px;
-  border-radius: 6px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(36, 37, 39);
+    margin: 4px 16px 0px 8px;
+    border-radius: 6px;
 }
 
 .mm4-3:hover {
-  background: rgb(48, 48, 49);
-  cursor: pointer;
+    background: rgb(48, 48, 49);
+    cursor: pointer;
 }
 
 .mm4-3 a {
-  color: rgb(46, 137, 255);
-  font-size: 15px;
-  font-weight: 600;
-  font-family: "Segoe UI Historic";
-  text-decoration: none;
-  width: 100%;
-  text-align: center;
+    color: rgb(46, 137, 255);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Segoe UI Historic";
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
 }
 
 /* **********************************
@@ -880,253 +877,251 @@ h2 {
 *************************************/
 
 .right-block {
-  display: flex;
-  width: 320px;
-  background: rgb(24, 25, 26);
-  position: fixed;
-  right: 0;
-  min-height: calc(100vh - 76px);
+    display: flex;
+    width: 320px;
+    background: rgb(24, 25, 26);
+    position: fixed;
+    right: 0;
+    min-height: calc(100vh - 76px);
 }
 
 .rb-conteiner {
-  padding-top: 8px;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
+    padding-top: 8px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
 .rbc-first {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
 .sponsored {
-  display: flex;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 0px 16px 0px 16px;
-  height: 22px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 16px 0px 16px;
+    height: 22px;
 }
 
 .sponsored p {
-  font-family: "Segoe UI Historic";
-  word-break: break-word;
-  color: rgb(176, 179, 184);
-  font-size: 17px;
-  font-weight: 600;
+    font-family: "Segoe UI Historic";
+    word-break: break-word;
+    color: rgb(176, 179, 184);
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .rbc-reklama {
-  padding-top: 8px;
-  padding-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .recr-inside-1 {
-  position: relative;
+    position: relative;
 }
 
 .recr-inside-1 a {
-  text-decoration: none;
-  width: 100%;
-  position: relative;
-  display: block;
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+    display: block;
 }
 
 .recr-inside-2 {
-  display: flex;
-  padding: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
+    display: flex;
+    padding: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .recr-inside-2-1 {
-  display: flex;
-  width: 100%;
-  align-items: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
 
 .inside-2-1-img {
-  width: 40%;
-  align-self: center;
+    width: 40%;
+    align-self: center;
 
-  display: flex;
-  position: relative;
+    display: flex;
+    position: relative;
 }
 
 .inside-2-1-img img {
-  max-width: 100%;
-  border-radius: 8px;
+    max-width: 100%;
+    border-radius: 8px;
 }
 
 .inside-2-1-info {
-  padding-left: 12px;
-  display: block;
-  width: calc(100% - 45%);
+    padding-left: 12px;
+    display: block;
+    width: calc(100% - 45%);
 }
 
 .ins2-1-info-1 {
-  font-family: "Segoe UI Historic";
-  color: rgb(228, 230, 235);
-  font-size: 15px;
-  font-weight: 500;
+    font-family: "Segoe UI Historic";
+    color: rgb(228, 230, 235);
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .ins2-1-info-2 {
-  color: rgb(176, 179, 184);
-  font-family: "Segoe UI Historic";
-  font-size: 13px;
-  font-weight: 400;
+    color: rgb(176, 179, 184);
+    font-family: "Segoe UI Historic";
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .rbc-two {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
 .rbc-two-contacts-menu {
-  padding-right: 16px;
-  padding-left: 16px;
-  box-sizing: border-box;
-  display: flex;
+    padding-right: 16px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    display: flex;
 }
 
 .cm-1 {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 .cm-1-contacts {
-  width: 100%;
+    width: 100%;
 }
 
 .cm-1-contacts span {
-  color: rgb(176, 179, 184);
-  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  font-weight: 600;
-  line-height: 20.0005px;
+    color: rgb(176, 179, 184);
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.0005px;
 }
 
 .cm-2-slots {
-  /* align-self:flex-start */
-  margin-left: 8px;
-  box-sizing: border-box;
+    /* align-self:flex-start */
+    margin-left: 8px;
+    box-sizing: border-box;
 }
 
 .cm-2-slots-1 span {
 }
 
 .span-inside-1 {
-  width: 16px;
-  height: 16px;
-  box-sizing: border-box;
-  background-image: url(/img/sprite2.png);
-  background-position-x: 0px;
-  background-position-y: -843px;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: auto;
-  cursor: pointer;
-  filter: invert(98%) sepia(2%) saturate(613%) hue-rotate(187deg)
-    brightness(95%) contrast(94%);
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+    background-image: url(/img/sprite2.png);
+    background-position-x: 0px;
+    background-position-y: -843px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: auto;
+    cursor: pointer;
+    filter: invert(98%) sepia(2%) saturate(613%) hue-rotate(187deg) brightness(95%) contrast(94%);
 }
 
 .cm-1-icons .cm-2-slots:nth-child(2) .span-inside-1 {
-  background-position: 0 -962px;
-  background-image: url(/img/sprite2.png);
+    background-position: 0 -962px;
+    background-image: url(/img/sprite2.png);
 }
 
 .cm-1-icons .cm-2-slots:nth-child(3) .span-inside-1 {
-  background-position: 0 -945px;
-  background-image: url(/img/sprite2.png);
+    background-position: 0 -945px;
+    background-image: url(/img/sprite2.png);
 }
 
 .cm-1-icons {
-  display: flex;
+    display: flex;
 }
 
 .span-inside {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .span-inside:hover {
-  background: rgb(48, 48, 49);
-  cursor: pointer;
+    background: rgb(48, 48, 49);
+    cursor: pointer;
 }
 
 .see-all {
-  display: flex;
-  width: 100%;
-  padding-top: 8px;
-  padding-bottom: 8px;
+    display: flex;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .see-all-inside {
-  height: 36px;
-  padding-left: 16px;
-  padding-right: 16px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  cursor: pointer;
-  align-items: center;
+    height: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    align-items: center;
 }
 
 .see-all-inside-1 {
-  display: flex;
-  background: rgb(48, 48, 49);
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
+    display: flex;
+    background: rgb(48, 48, 49);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
 }
 
 .see-all-inside-1:hover {
-  background: rgb(68, 69, 70);
+    background: rgb(68, 69, 70);
 }
 .see-all-online span {
-  color: rgb(228, 230, 235);
-  cursor: pointer;
-  direction: ltr;
-  display: block;
-  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  font-weight: 600;
+    color: rgb(228, 230, 235);
+    cursor: pointer;
+    direction: ltr;
+    display: block;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .see-all-more {
-  display: flex;
-  box-sizing: border-box;
-  margin-left: 3px;
-  margin-right: 3px;
-  cursor: pointer;
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
 }
 
 .see-all-more span {
-  align-items: center;
-  display: flex;
+    align-items: center;
+    display: flex;
 }
 .see-all-more-img {
-  width: 16px;
-  height: 16px;
-  background-image: url(/img/sprite2.png);
-  background-position: 0 -877px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  display: inline-block;
-  filter: invert(96%) sepia(5%) saturate(162%) hue-rotate(185deg)
-    brightness(94%) contrast(97%);
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/sprite2.png);
+    background-position: 0 -877px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    filter: invert(96%) sepia(5%) saturate(162%) hue-rotate(185deg) brightness(94%) contrast(97%);
 }
 
 /* **********************************
@@ -1136,227 +1131,224 @@ h2 {
 *************************************/
 
 .igromania {
-  width: 100%;
-  background: rgb(36, 37, 39);
-  display: flex;
-  flex-direction: column;
-  border-radius: 8px;
-  padding-top: 12px;
-  padding-bottom: 16px;
+    width: 100%;
+    background: rgb(36, 37, 39);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 16px;
 }
 
 .igromania-head {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 20px;
 }
 
 .igromania-head-1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .ih1-1 {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .ih1-1-logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  position: relative;
-  background-image: url(/img/igromania.png);
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    background-image: url(/img/igromania.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
 }
 
 .ih1-1-info {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  margin-left: 8px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 8px;
 }
 
 .ih1-1-info span {
-  color: rgb(228, 230, 235);
-  cursor: pointer;
-  direction: ltr;
-  display: inline;
-  font-family: "Segoe UI Historic";
-  font-size: 15px;
-  font-weight: 600;
+    color: rgb(228, 230, 235);
+    cursor: pointer;
+    direction: ltr;
+    display: inline;
+    font-family: "Segoe UI Historic";
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .ih1-1-info-1 {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .ih1-1-info a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .ih1-1-info a:hover {
-  text-decoration: underline;
-  text-decoration-color: rgb(176, 179, 184);
+    text-decoration: underline;
+    text-decoration-color: rgb(176, 179, 184);
 }
 
 .ih1-1-info-1 span {
-  color: rgb(176, 179, 184);
-  cursor: pointer;
-  display: inline;
-  font-family: "Segoe UI Historic";
-  font-size: 13px;
-  font-weight: 400;
-  margin-right: 5px;
-  height: 18px;
+    color: rgb(176, 179, 184);
+    cursor: pointer;
+    display: inline;
+    font-family: "Segoe UI Historic";
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 5px;
+    height: 18px;
 }
 
 .ih1-1-info-1 i {
-  width: 12px;
-  height: 12px;
-  background-image: url(/img/sprite3.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-position: 0 -1031px;
-  filter: invert(86%) sepia(5%) saturate(256%) hue-rotate(179deg)
-    brightness(87%) contrast(78%);
+    width: 12px;
+    height: 12px;
+    background-image: url(/img/sprite3.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0 -1031px;
+    filter: invert(86%) sepia(5%) saturate(256%) hue-rotate(179deg) brightness(87%) contrast(78%);
 }
 
 .ih1-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px;
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 .ih1-2:hover {
-  border-radius: 50%;
-  background: grey;
-  background-color: rgb(58, 59, 60);
+    border-radius: 50%;
+    background: grey;
+    background-color: rgb(58, 59, 60);
 }
 
 .ih1-2 i {
-  width: 20px;
-  height: 20px;
-  background-image: url(/img/sprite2.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-position: 0 -603px;
-  filter: invert(86%) sepia(5%) saturate(256%) hue-rotate(179deg)
-    brightness(87%) contrast(78%);
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/sprite2.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0 -603px;
+    filter: invert(86%) sepia(5%) saturate(256%) hue-rotate(179deg) brightness(87%) contrast(78%);
 }
 
 .igromania-head-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  border-left: 2px solid rgb(176, 179, 184);
-  padding-left: 15px;
-  padding-top: 10px;
-  box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: 2px solid rgb(176, 179, 184);
+    padding-left: 15px;
+    padding-top: 10px;
+    box-sizing: border-box;
 }
 
 .igromania-head-2 a {
-  text-decoration: none;
-  color: rgb(108, 139, 194);
-  margin-left: 10px;
-  font-size: 13px;
-  font-weight: 400;
+    text-decoration: none;
+    color: rgb(108, 139, 194);
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .ih-2-name {
-  font-family: "Segoe UI Historic";
-  font-size: 16px;
-  font-weight: 600;
-  color: rgb(219, 220, 222);
-  margin-bottom: 5px;
+    font-family: "Segoe UI Historic";
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(219, 220, 222);
+    margin-bottom: 5px;
 }
 
 .ih-2-options {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .ih-2-site {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 .ih-2-site a {
-  margin-left: 0px;
-  font-family: "Segoe UI Historic";
-  font-size: 16px;
+    margin-left: 0px;
+    font-family: "Segoe UI Historic";
+    font-size: 16px;
 }
 
 .ih-2-options i {
-  width: 12px;
-  height: 12px;
-  background-image: url(/img/sprite3.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-position: 0 -1148px;
-  filter: invert(55%) sepia(38%) saturate(484%) hue-rotate(180deg)
-    brightness(91%) contrast(87%);
-  cursor: pointer;
+    width: 12px;
+    height: 12px;
+    background-image: url(/img/sprite3.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0 -1148px;
+    filter: invert(55%) sepia(38%) saturate(484%) hue-rotate(180deg) brightness(91%) contrast(87%);
+    cursor: pointer;
 }
 
 .igromania-post {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .ip-1 {
-  width: 100%;
-  height: 400px;
-  background-image: url(/img/cyberpunk/main.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: inline-block;
+    width: 100%;
+    height: 400px;
+    background-image: url(/img/cyberpunk/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .ip-2 {
-  display: flex;
-  width: 100%;
-  height: 120px;
-  justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: space-around;
 }
 .ip-2-1 {
-  background-image: url(/img/cyberpunk/1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: inline-block;
+    background-image: url(/img/cyberpunk/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
 
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .ip-2-2 {
-  background-image: url(/img/cyberpunk/2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 100%;
-  width: 100%;
+    background-image: url(/img/cyberpunk/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
 }
 
 .ip-2-3 {
-  background-image: url(/img/cyberpunk/3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 100%;
-  width: 100%;
+    background-image: url(/img/cyberpunk/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
 }
