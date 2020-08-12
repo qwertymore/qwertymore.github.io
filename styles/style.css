@@ -339,7 +339,7 @@ h2 {
 
 .see-more svg {
   width: 20px;
-  fill: rgb(169, 170, 172);
+  fill: rgb(176, 179, 184);
 }
 
 .shortcuts hr {
@@ -664,6 +664,8 @@ h2 {
   flex-direction: column;
   position: relative;
   border-radius: 8px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .mm4-1 {
@@ -691,7 +693,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-
   color: rgb(176, 179, 184);
   font-family: "Segoe UI Historic";
   font-size: 12px;
@@ -715,6 +716,7 @@ h2 {
   background: rgb(36, 37, 39);
   padding-top: 8px;
   margin-left: 8px;
+  padding-right: 16px;
 }
 
 .mm4-2-slot {
@@ -1116,4 +1118,238 @@ h2 {
   display: inline-block;
   filter: invert(96%) sepia(5%) saturate(162%) hue-rotate(185deg)
     brightness(94%) contrast(97%);
+}
+
+/* **********************************
+
+          igromania
+
+*************************************/
+
+.igromania {
+  width: 100%;
+  background: rgb(36, 37, 39);
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+
+.igromania-head {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 20px;
+}
+
+.igromania-head-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ih1-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.ih1-1-logo {
+  width: 40px;
+  height: 40px;
+  background: yellow;
+  border-radius: 50%;
+  position: relative;
+  background-image: url(/img/igromania.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: cover;
+}
+
+.ih1-1-info {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.ih1-1-info span {
+  color: rgb(228, 230, 235);
+  cursor: pointer;
+  direction: ltr;
+  display: inline;
+  font-family: "Segoe UI Historic";
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.ih1-1-info-1 {
+  display: flex;
+  align-items: center;
+}
+
+.ih1-1-info a {
+  text-decoration: none;
+}
+
+.ih1-1-info a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(176, 179, 184);
+}
+
+.ih1-1-info-1 span {
+  color: rgb(176, 179, 184);
+  cursor: pointer;
+  display: inline;
+  font-family: "Segoe UI Historic";
+  font-size: 13px;
+  font-weight: 400;
+  margin-right: 5px;
+  height: 18px;
+}
+
+.ih1-1-info-1 i {
+  width: 12px;
+  height: 12px;
+  background-image: url(/img/sprite3.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: 0 -1031px;
+  filter: invert(86%) sepia(5%) saturate(256%) hue-rotate(179deg)
+    brightness(87%) contrast(78%);
+}
+
+.ih1-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.ih1-2:hover {
+  border-radius: 50%;
+  background: grey;
+  background-color: rgb(58, 59, 60);
+}
+
+.ih1-2 i {
+  width: 20px;
+  height: 20px;
+  background-image: url(/img/sprite2.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: 0 -603px;
+  filter: invert(86%) sepia(5%) saturate(256%) hue-rotate(179deg)
+    brightness(87%) contrast(78%);
+}
+
+.igromania-head-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-left: 2px solid rgb(176, 179, 184);
+  padding-left: 15px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.igromania-head-2 a {
+  text-decoration: none;
+  color: rgb(108, 139, 194);
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.ih-2-name {
+  font-family: "Segoe UI Historic";
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(219, 220, 222);
+  margin-bottom: 5px;
+}
+
+.ih-2-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ih-2-site {
+  margin-bottom: 5px;
+}
+.ih-2-site a {
+  margin-left: 0px;
+  font-family: "Segoe UI Historic";
+  font-size: 16px;
+}
+
+.ih-2-options i {
+  width: 12px;
+  height: 12px;
+  background-image: url(/img/sprite3.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: 0 -1148px;
+  filter: invert(55%) sepia(38%) saturate(484%) hue-rotate(180deg)
+    brightness(91%) contrast(87%);
+  cursor: pointer;
+}
+
+.igromania-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.ip-1 {
+  width: 100%;
+  height: 400px;
+  background-image: url(/img/cyberpunk/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.ip-2 {
+  display: flex;
+  width: 100%;
+  background: rosybrown;
+  height: 120px;
+  justify-content: space-around;
+}
+.ip-2-1 {
+  background-image: url(/img/cyberpunk/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+
+  height: 100%;
+  width: 100%;
+}
+
+.ip-2-2 {
+  background-image: url(/img/cyberpunk/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.ip-2-3 {
+  background-image: url(/img/cyberpunk/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
