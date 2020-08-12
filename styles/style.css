@@ -1322,7 +1322,6 @@ h2 {
 .ip-2 {
   display: flex;
   width: 100%;
-  background: rosybrown;
   height: 120px;
   justify-content: space-around;
 }
