@@ -339,7 +339,8 @@ h2 {
 
 .see-more svg {
   width: 20px;
-  fill: rgb(176, 179, 184);
+  /* fill: rgb(176, 179, 184); */
+  fill: rgb(167, 170, 174);
 }
 
 .shortcuts hr {
@@ -736,13 +737,21 @@ h2 {
 
 .mm4-2-inside-1 {
   width: 100%;
-  background-image: url(/img/pr-3.jpg);
+  background-image: url(/img/main-menu/friends/lana.png);
   padding-bottom: 100%;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 8px 8px 0px 0px;
   display: flex;
+}
+
+.mm4-2-slot :nth-child(2) .mm4-2-inside-1 {
+  background-image: url(/img/main-menu/friends/mia.jpg);
+}
+
+.mm4-2-slot :nth-child(3) .mm4-2-inside-1 {
+  background-image: url(/img/main-menu/friends/nicole.jpg);
 }
 
 .mm4-2-inside-1 img {
