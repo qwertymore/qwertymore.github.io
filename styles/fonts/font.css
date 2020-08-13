@@ -28,7 +28,7 @@
 
 @font-face {
     font-family: "HelveticaNeueCyr";
-    src: url("/styles/fonts/Helvetica/HelveticaNeueCyr-LightItalic.woff2");
+    src: url("/styles/fonts/Helvetica/HelveticaNeueCyr-LightItalic.woff2") format("woff2");
     font-weight: 300;
     font-style: italic;
 }
