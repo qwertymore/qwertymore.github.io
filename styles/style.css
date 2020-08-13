@@ -278,9 +278,9 @@ h2 {
     text-decoration: none;
     width: 100%;
     color: rgb(228, 230, 235);
-    font-size: 0.9375rem;
-    font-weight: 600;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .left-bar a:hover {
@@ -328,7 +328,6 @@ h2 {
 
 .see-more svg {
     width: 20px;
-    /* fill: rgb(176, 179, 184); */
     fill: rgb(167, 170, 174);
 }
 
@@ -347,7 +346,7 @@ h2 {
     color: rgb(179, 179, 184);
     font-size: 17px;
     font-weight: 600;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
 }
 
 .shortcuts ul li img {
@@ -489,7 +488,7 @@ h2 {
     width: 100%;
     background-color: rgb(58, 59, 61);
     font-size: 17px;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     color: rgb(178, 178, 176);
     line-height: 2.34;
 }
@@ -566,7 +565,7 @@ h2 {
 
 .comment-2-inside span {
     color: rgb(176, 179, 184);
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 15px;
     font-weight: 600;
 }
@@ -617,7 +616,7 @@ h2 {
 
 .rooms-1 span {
     color: rgb(280, 230, 235);
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 15px;
     font-weight: 600;
     margin-left: 4px;
@@ -630,7 +629,7 @@ h2 {
 }
 .rooms-create a {
     color: rgb(46, 137, 255);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
@@ -648,7 +647,6 @@ h2 {
 
 .mm4-friends {
     display: flex;
-    /* height: 392px; */
     background: rgb(36, 37, 39);
     flex-direction: column;
     position: relative;
@@ -669,7 +667,7 @@ h2 {
 
 .mm4-1-people {
     color: rgb(176, 179, 184);
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 17px;
     font-weight: 600;
     line-height: 20.0005px;
@@ -683,7 +681,7 @@ h2 {
     align-items: center;
     justify-content: center;
     color: rgb(176, 179, 184);
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 12px;
 }
 
@@ -772,16 +770,14 @@ h2 {
 
 .mm4-2-inside-2-name {
     display: flex;
-    /* justify-content: center; */
+
     align-items: center;
     height: 20px;
     width: 100%;
     box-sizing: border-box;
-    /* padding: 0px 12px 0px 12px; */
-
     font-size: 17px;
     font-weight: 600;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     cursor: pointer;
     color: rgb(228, 230, 235);
 }
@@ -790,8 +786,7 @@ h2 {
     height: 28px;
     margin-bottom: 4px;
     font-size: 12px;
-
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     padding-bottom: 4px;
     box-sizing: border-box;
     color: rgb(176, 179, 184);
@@ -829,7 +824,7 @@ h2 {
     margin-left: 3px;
     margin-right: 3px;
     cursor: pointer;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 15px;
     font-weight: 600;
     color: rgb(46, 137, 255);
@@ -854,7 +849,7 @@ h2 {
     color: rgb(46, 137, 255);
     font-size: 15px;
     font-weight: 600;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     text-decoration: none;
     width: 100%;
     text-align: center;
@@ -897,7 +892,7 @@ h2 {
 }
 
 .sponsored p {
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     word-break: break-word;
     color: rgb(176, 179, 184);
     font-size: 17px;
@@ -953,7 +948,7 @@ h2 {
 }
 
 .ins2-1-info-1 {
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     color: rgb(228, 230, 235);
     font-size: 15px;
     font-weight: 500;
@@ -961,7 +956,7 @@ h2 {
 
 .ins2-1-info-2 {
     color: rgb(176, 179, 184);
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 13px;
     font-weight: 400;
 }
@@ -992,7 +987,7 @@ h2 {
 
 .cm-1-contacts span {
     color: rgb(176, 179, 184);
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 17px;
     font-weight: 600;
     line-height: 20.0005px;
@@ -1086,7 +1081,7 @@ h2 {
     cursor: pointer;
     direction: ltr;
     display: block;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 15px;
     font-weight: 600;
 }
@@ -1173,7 +1168,7 @@ h2 {
     cursor: pointer;
     direction: ltr;
     display: inline;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 15px;
     font-weight: 600;
 }
@@ -1196,7 +1191,7 @@ h2 {
     color: rgb(176, 179, 184);
     cursor: pointer;
     display: inline;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 13px;
     font-weight: 400;
     margin-right: 5px;
@@ -1260,7 +1255,7 @@ h2 {
 }
 
 .ih-2-name {
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 16px;
     font-weight: 600;
     color: rgb(219, 220, 222);
@@ -1279,7 +1274,7 @@ h2 {
 }
 .ih-2-site a {
     margin-left: 0px;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 16px;
 }
 
@@ -1404,7 +1399,7 @@ h2 {
     padding-left: 6px;
     cursor: pointer;
     color: rgb(176, 179, 184);
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 15px;
 }
 
@@ -1421,7 +1416,7 @@ h2 {
     margin-left: 7px;
     cursor: pointer;
     color: rgb(176, 179, 184);
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 15px;
 }
 
@@ -1448,7 +1443,7 @@ h2 {
     cursor: pointer;
     color: rgb(176, 179, 184);
     display: block;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueCyr";
     font-size: 15px;
     font-weight: 600;
     text-align: start;
