@@ -196,6 +196,7 @@ a {
     margin-right: 8px;
     padding: 0px 12px 0px 12px;
     height: 36px;
+    cursor: pointer;
 }
 
 .profile-settings p {
@@ -360,7 +361,11 @@ h2 {
 
 .left-menu-footer a {
     font-weight: 400;
-    font-size: 0.8125rem;
+    font-size: 13px;
+    color: rgb(179, 179, 184);
+}
+.left-menu-footer span {
+    color: rgb(179, 179, 184);
 }
 
 /* **********************************
